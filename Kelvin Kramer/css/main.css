@@ -1,0 +1,282 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Gabarito:wght@400;500;700;800&family=IBM+Plex+Mono:ital,wght@0,300;0,600;1,500;1,700&family=Inter:wght@300;400;500;600;800&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Poppins:wght@400;500;600;700&family=Tinos:ital,wght@0,400;0,700;1,400&family=Young+Serif&display=swap');
+
+body {
+    font-family: 'Popins', sans-serif;
+    color: #000;
+}
+
+.container {
+    max-width: 1140x;
+    width: 85%;
+    margin: 0 auto;
+
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #000;
+    transition: .3s;
+
+}
+
+.btn:active {
+    background-color: #6d6767;
+    position: relative;
+    top: 1;
+}
+
+/******** HEADER ********/
+.header {
+    background: #F1F1F1;
+    padding: 46px;
+    margin: 0 auto;
+    
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    position: sticky;
+    top: 0;
+
+
+}
+
+.logo {
+    position: relative;
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding: 0 12px 3px 0;
+
+
+}
+
+.logo ::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+
+/********* NAV *********/
+.nav-button {
+    display: none;
+}
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500px;
+    font-size: 14px;
+
+
+}
+
+.nav-link {
+    color: #000;
+
+}
+
+.nav-link.active {
+    color: #aba4a4;
+}
+
+/********* HEADER CONTENT *********/
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-heading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+
+
+
+}
+
+.header-content p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header-img {
+    padding-left: 0;
+}
+
+/********* Services *********/
+.services-card-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.services-card p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.services {
+    padding: 90px 0;
+}
+
+.services-row {
+    display: flex;
+    text-align: center;
+}
+
+.services-card *+* {
+    padding-right: 30px;
+
+
+}
+
+/********* Portfolio *********/
+.portfolio {
+    background: #F1F1F1;
+}
+
+
+.portfolio-title {
+    color: #070707;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 600;
+    padding: 90px 0;
+
+
+
+}
+
+.title-1 {}
+
+.project+.project {
+    margin-top: 90px;
+
+}
+
+.project-img {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project-title {
+    text-align: center;
+    padding: 40px 0 90px 0;
+}
+
+.project-title a {
+    color: #070707;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+
+}
+
+/********* Footer *********/
+.contacts {}
+
+.container {}
+
+.contacts-title {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.contacts-title1 {
+    color: #070707;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.contacts-content {
+    color: #070707;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+    text-align: center;
+    padding-top: 48px;
+
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacts-social img {
+    margin-right: 62px;
+    align-items: center;
+}
+
+.contacts-footer {
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+
+.contacts-footer p {
+    color: #828282;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+
+}
